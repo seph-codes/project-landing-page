@@ -11,8 +11,6 @@
     background-color: #1f2937;
 }
 
-/* header */
-
 .logo.text {
     font-size: 24px;
     color: #f9faf8;
@@ -37,5 +35,33 @@
 /* information */
 
 .information.heading {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
 
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: 0px 100px;
+    padding: 20px 100px;
+    gap: 40px;
+    font-weight: bold;
+}
+
+.logo.text {
+    margin-right: auto;
+    font-size: 34px;
+}
+
+.header-link {
+    font-size: 24px;
+}
+
+.img.placeholder {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    padding: 100px 200px;
 }
