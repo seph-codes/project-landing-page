@@ -59,9 +59,24 @@
     font-size: 24px;
 }
 
+.hero {
+    display: flex;
+    margin: 0px 0px 0px 100px;
+    padding: 20px 0px 20px 100px;
+}
+
+.three {
+    flex-wrap: wrap;
+}
+
 .img.placeholder {
     width: 400px;
     height: 200px;
     background-color: grey;
-    padding: 100px 200px;
+    padding: 0px 290px;
+    color: white;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
 }
