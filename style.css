@@ -20,3 +20,9 @@
     margin-right: auto;
     font-weight: bold;
 }
+
+.hero.section {
+    background-color: brown;
+    display: flex;
+    gap: 50px;
+}
