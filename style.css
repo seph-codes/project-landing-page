@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-right: auto;
+    font-weight: bold;
+}
