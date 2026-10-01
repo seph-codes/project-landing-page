@@ -5,6 +5,8 @@
     font-family: 'Roboto';
 }
 
+/* navigation bar */
+
 .navigation {
     display: flex;
     gap: 30px;
@@ -21,8 +23,47 @@
     font-weight: bold;
 }
 
+/* hero section */
+
 .hero.section {
-    background-color: brown;
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #faf9f8;
     display: flex;
     gap: 50px;
+    padding: 100px 200px;
+}
+
+.main.text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.secondary.text {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-top: 20px;
+}
+
+.call.to.action {
+    background-color: #3882f6;
+    color: #e5e7eb;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.img.placeholder {
+    background-color: grey;
+    padding: 100px 180px;
+    justify-content: center;
+    font-size: 15px;
 }
