@@ -5,7 +5,7 @@
     font-family: 'Roboto';
 }
 
-/* navigation bar */
+/* navigation */
 
 .navigation {
     display: flex;
@@ -23,7 +23,7 @@
     font-weight: bold;
 }
 
-/* hero section */
+/* hero */
 
 .hero.section {
     background-color: #1F2937;
@@ -68,7 +68,7 @@
     font-size: 15px;
 }
 
-/* information section */
+/* information */
 
 .information.heading {
     font-size: 36px;
@@ -77,12 +77,12 @@
     text-align: center;
     margin: 50px;
 } 
-/*  */
 
 .images {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
+    padding: 0 300px;
 }
 
 .sections {
@@ -93,7 +93,27 @@
 }
 
 .info.img {
-    border: 1px solid black;
+    border: 5px solid rgb(32, 32, 204);
+    border-radius: 15px;
     width: 200px;
     height: 200px;
+    margin-bottom: 30px;
 }
+
+.info.text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 33px;
+}
+
+.information {
+    margin-bottom: 100px;
+}
+
+/* quote */
+
+/* call to action */
+
+/* footer */
