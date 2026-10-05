@@ -177,5 +177,13 @@
     font-size: 24px;
 }
 
-
 /* footer */
+
+.footer.content {
+    border: 1px solid black;
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 50px 200px;
+    font-size: 24px;
+}
